@@ -21,12 +21,13 @@
   opacity: 0.001;
 }
 
+
 body {
   background-color: #ff8000;
 }
 
 p {
-  color: #f00;
+  color: #ff0;
   font-family: Helvetica, Arial, sans-serif;
   font-size: 1.75rem;
   padding-top: 10pt;
