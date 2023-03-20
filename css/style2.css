@@ -1,17 +1,17 @@
 /* Created by: Dominic M.
 * Created on: Feb 2023
-* This file contains the CSS for index.html
+* This file contains the CSS for index2.html
 */
 
-.mdl-layout__header-row {
+.mdl-layout__headr-row2 {
   align-items: center;
   justify-content: center;
 }
 
-.mdl-layout__content {
-  padding-left: 50pt;
-  padding-right: 50pt;
-  padding-top: 50pt;
+.mdl-layout__contnt {
+  padding-left: 25pt;
+  padding-right: 25pt;
+  padding-top: 25pt;
 }
 
 /* Due to error in MDL : https://github.com/google/material-design-lite/issues/5281
@@ -21,8 +21,10 @@
   opacity: 0.001;
 }
 
-body {
-  background-color: #ff8000;
+.page-content {
+  color: red;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 1.75rem;
 }
 
 p {
@@ -30,4 +32,8 @@ p {
   font-family: Helvetica, Arial, sans-serif;
   font-size: 1.75rem;
   padding-top: 10pt;
+}
+
+body {
+  background-color: yellow;
 }
